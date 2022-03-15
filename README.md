@@ -4,14 +4,18 @@ This repository contains code and data to reproduce the results and figures of
 Newberry and Plotkin (2022) _Measuring frequency-dependent selection in
 culture_.
 
+The companion source code repository is [fdsel](https://github.com/mnewberry/fdsel/).
+
 ## Dependencies
 
 The analysis relies on the software `fdsel`, available in a separate repository
 and R (3.6.1) with packages optparse and ggplot2, as well as a typical unix
 environment.
 
-The binaries `fdsel` and `fdsel-simdemo` (for Fig. S6) are required to be in
-the path.
+The binary `fdsel` is required to be in the path. Some simulations require
+OCaml components that must be compiled in the `fdsel` source repository and the
+binaries copied here. These are described in comments in the respective
+`run.sh` files.
 
 ## Name analysis
 
