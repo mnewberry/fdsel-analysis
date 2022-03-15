@@ -16,7 +16,9 @@ the path.
 ## Name analysis
 
 The name analysis is in the `names` subdirectory. Executing `./run.sh` and
-`Rscript plot.R` reproduces the analysis.
+`Rscript plot.R` reproduces the analysis. Please note that bootstrap
+confidence intervals required to reproduce main text figures take several
+CPU-days to execute on modern CPUs.
 
 ## Dog popularity analysis
 
@@ -24,8 +26,8 @@ The dog popularity analysis is in the `akc` subdirectory. Executing `./run.sh`
 and `Rscript plot.R` reproduces most of the analysis.
 
 The novelty bias grid search (SI Section 5) is extremely computationally
-intensive and takes days to execute. To run this analysis, uncomment the
-relevant lines from `run.sh`.
+intensive and takes dozens of CPU-days to execute. To run this analysis,
+uncomment the relevant lines from `run.sh`.
 
 ## Author
 
